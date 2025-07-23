@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: azure;
+    padding: 16 0;
+    color: white;
+    display: flex;
+    border-bottom: 10px lightgreen;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 24px;
+}
+
+h1 {
+    background-color: rgba(43, 163, 19, 0.575);
+    max-width: 280px;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #c8d6e5;
+    padding: 24px 0;
+    text-align: center;
+}
+
+#novaTarefa,
+#botaoenviar {
+    height: 24px;
+    border:none;
+
+}
+
+ul {
+    margin-top: 12px;
+    font-size: 24px;
+    text-align: center;
+}
